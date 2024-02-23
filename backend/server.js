@@ -4,7 +4,7 @@ const app = exp();
 
 app.listen('9007')
 app.get('/', (req, res)=>{
-    res.send('Welcome to Node Framework called Express')
+    res.send('Welcome to Node Backend')
 })
 
 app.get('/api/chats', (req, res)=>{
